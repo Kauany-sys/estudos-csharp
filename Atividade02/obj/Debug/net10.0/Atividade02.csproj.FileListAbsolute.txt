@@ -1,0 +1,14 @@
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\Atividade02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\Atividade02.AssemblyInfoInputs.cache
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\Atividade02.AssemblyInfo.cs
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\Atividade02.csproj.CoreCompileInputs.cache
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\bin\Debug\net10.0\Atividade02.exe
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\bin\Debug\net10.0\Atividade02.deps.json
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\bin\Debug\net10.0\Atividade02.runtimeconfig.json
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\bin\Debug\net10.0\Atividade02.dll
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\bin\Debug\net10.0\Atividade02.pdb
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\Atividade02.dll
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\refint\Atividade02.dll
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\Atividade02.pdb
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\Atividade02.genruntimeconfig.cache
+C:\Users\kauan\OneDrive\Desktop\estudos\C#\Atividade02\obj\Debug\net10.0\ref\Atividade02.dll
