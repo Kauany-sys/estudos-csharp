@@ -1,41 +1,31 @@
-﻿//Semana 2 - Aula ead - Vetores
-using System;
-using System.Collections.Specialized;
+﻿using System;
+
 class Ex01
 {
-    //isso é uma função para ler um vetor
-    static void LerVetor(int[] vetor)
+    //função de soma dos elementos de um vetor
+    static int SomaDosElementos(int[] vetor)
     {
-        Console.WriteLine("entre com os dados do vetor: ");
+        int soma = 0;
         for(int i = 0; i < vetor.Length; i++)
-        {
-            Console.Write($"Array[{i}]:");
-            vetor[i] = int.Parse(Console.ReadLine()!);
-        }
+           soma = soma + vetor[i];
+        
+        return soma;
     }
-    //essa função gera dados aleatórios em um vetor
-    static void GerarVetor(int[] vetor)  
-    {
-        Random aleatorio = new Random();
-        for(int i = 0 ; i < vetor.Length; i++)
-            vetor[i] = aleatorio.Next(1,100);
-
-    }
-    //isso é uma função para exibir um vetor
-    static void MostrarVetor(int[] vetor)
-    {
-        Console.WriteLine("Dados do vetor: ");
-        for(int i = 0; i <vetor.Length; i++)
-        {
-            Console.Write($"|{vetor[i]}|");
-        }
-    }
-    //isso é o código principal
+    //código principal
     static void Main()
     {
-        int[] Array = new int[5];
-        GerarVetor(Array);
-        MostrarVetor(Array);
-       
+        int n;
+         Console.Write("Digite o tamanho do vetor desejado: ");
+         n = int.Parse(Console.ReadLine());
+
+        int [] vetor = new int[n];
+        for(int i = 0; i < vetor.Length; i++)
+        {
+            Console.Write($"Elemento[{i}]: ");
+            vetor[i] = int.Parse(Console.ReadLine());
+        }
+
+        Console.WriteLine($"A soma dos elementos desse vetor é {SomaDosElementos(vetor)}" );
+
     }
 }

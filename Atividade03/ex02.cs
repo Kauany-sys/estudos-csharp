@@ -3,6 +3,7 @@ using System.Collections.Specialized;
 
 class Ex02
 {
+    //Função que conta a quantidade de números ímpares no vetor.
     static int  ContarImpares (int[] vetor)
     {
         int  impares = 0;
