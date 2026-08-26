@@ -2,44 +2,64 @@ using System;
 
 class Ex08
 {
-    //Função que inverte a ordem do vetor
-    static char[] inverterVetor(char[] vetor)
+    //Função que gera o vetor complementar de bases
+    static char[] gerarComplementar(char[] vetor)
     {
         int tamanho = vetor.Length;
-        char[] vetorInvertido = new char[tamanho];
+        char[] vetorComplementar = new char[tamanho];
 
-        for(int i = 0; i < tamanho ; i++)
-            vetorInvertido[i] = vetor[tamanho - 1 - i];
+        for(int i = 0; i < tamanho; i++)
+        {
+            switch(vetor[i])
+            {
+                case 'A':
+                    vetorComplementar[i] = 'T';
+                    break;
+                case 'T':
+                    vetorComplementar[i] = 'A';
+                    break;
+                case 'C':
+                    vetorComplementar[i] = 'G';
+                    break;
+                case 'G':
+                    vetorComplementar[i] = 'C';
+                    break;
+                default:
+                    vetorComplementar[i] = '?';
+                    break;
+            }
+        }
 
-        return  vetorInvertido; 
-        
+        return vetorComplementar;
     }
+
     static void Main()
     {
-        char[] vetor = new char[5];
+        Console.Write("Digite o tamanho da fita de DNA (max 50): ");
+        int tamanho = int.Parse(Console.ReadLine()!);
 
-        //pede ao usuário para preencher o vetor
-        Console.WriteLine("_____PREENCHA O VETOR COM CARACTERES_____");
-        for(int i = 0; i < vetor.Length; i++)
+        char[] dna = new char[tamanho];
+
+        //pede ao usuário para preencher o vetor com as bases
+        Console.WriteLine("_____PREENCHA O VETOR COM AS BASES (A, T, C, G)_____");
+        for(int i = 0; i < dna.Length; i++)
         {
-            Console.Write($"vetor[{i}]: ");
-            vetor[i] = char.Parse(Console.ReadLine()!);
+            Console.Write($"dna[{i}]: ");
+            dna[i] = char.ToUpper(char.Parse(Console.ReadLine()!));
         }
 
         Console.Clear();
 
-        //Exibe o vetor original
-        Console.WriteLine("\n_____Vetor Original_____\n");
-        for(int i = 0; i < vetor.Length; i ++)
-            Console.Write($"|{vetor[i]}|");
+        //Exibe a fita original
+        Console.WriteLine("\n_____Fita Original_____\n");
+        for(int i = 0; i < dna.Length; i++)
+            Console.Write($"|{dna[i]}|");
 
-        char[] vetorInvertido = inverterVetor(vetor);
+        char[] dnaComplementar = gerarComplementar(dna);
 
-        //Exibe o vetor invertido
-        Console.WriteLine("\n_____Vetor invertido_____\n");
-        for(int i = 0; i < vetor.Length; i ++)
-            Console.Write($"|{vetorInvertido[i]}|");
-
-
+        //Exibe a fita complementar
+        Console.WriteLine("\n_____Fita Complementar_____\n");
+        for(int i = 0; i < dnaComplementar.Length; i++)
+            Console.Write($"|{dnaComplementar[i]}|");
     }
 }
