@@ -1,0 +1,14 @@
+C:\Aula\Atividade12\bin\Debug\net9.0\Atividae12.exe
+C:\Aula\Atividade12\bin\Debug\net9.0\Atividae12.deps.json
+C:\Aula\Atividade12\bin\Debug\net9.0\Atividae12.runtimeconfig.json
+C:\Aula\Atividade12\bin\Debug\net9.0\Atividae12.dll
+C:\Aula\Atividade12\bin\Debug\net9.0\Atividae12.pdb
+C:\Aula\Atividade12\obj\Debug\net9.0\Atividae12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aula\Atividade12\obj\Debug\net9.0\Atividae12.AssemblyInfoInputs.cache
+C:\Aula\Atividade12\obj\Debug\net9.0\Atividae12.AssemblyInfo.cs
+C:\Aula\Atividade12\obj\Debug\net9.0\Atividae12.csproj.CoreCompileInputs.cache
+C:\Aula\Atividade12\obj\Debug\net9.0\Atividae12.dll
+C:\Aula\Atividade12\obj\Debug\net9.0\refint\Atividae12.dll
+C:\Aula\Atividade12\obj\Debug\net9.0\Atividae12.pdb
+C:\Aula\Atividade12\obj\Debug\net9.0\Atividae12.genruntimeconfig.cache
+C:\Aula\Atividade12\obj\Debug\net9.0\ref\Atividae12.dll
